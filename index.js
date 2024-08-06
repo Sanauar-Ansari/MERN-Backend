@@ -17,10 +17,6 @@ app.use("/api", require("./routes/CreateUser"));
 app.use("/api", require("./routes/DisplayData"));
 app.use("/api", require("./routes/OrderData"));
 
-app.get("/", async (req, res) => {
-  res.send("hii");
-});
-
 app.listen(port, (err) => {
   if (err) {
     console.log(err);
