@@ -13,9 +13,12 @@ app.use(
 );
 app.use(bodyParser.json());
 //routes
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
 app.use("/api", require("./routes/CreateUser"));
-app.use("/api", require("./routes/DisplayData"));
-app.use("/api", require("./routes/OrderData"));
+// app.use("/api", require("./routes/DisplayData"));
+// app.use("/api", require("./routes/OrderData"));
 
 app.listen(port, (err) => {
   if (err) {
