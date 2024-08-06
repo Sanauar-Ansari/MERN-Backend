@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const mongoURL =
-  "mongodb+srv://sanauaransari99:sanauar12345@cluster0.acjsjqi.mongodb.net/";
+  "mongodb+srv://sanauaransari99:chand12345@cluster0.eaao2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+// "mongodb+srv://sanauaransari99:sanauar12345@cluster0.acjsjqi.mongodb.net/";
 // "mongodb+srv://sanauaransari99:sanauar12345@cluster0.acjsjqi.mongodb.net/foodmenia?retryWrites=true&w=majority&appName=Cluster0";
 
 const mongoDB = async () => {
